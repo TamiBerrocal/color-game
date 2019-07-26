@@ -1,4 +1,4 @@
 # color-game
 Guess the color!
 
-Try at https://tamiberrocal.github.io/color-game/
+Try it at https://tamiberrocal.github.io/color-game/
