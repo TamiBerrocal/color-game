@@ -1,0 +1,68 @@
+:root {
+	--background-color: #232323;
+	--font-color: white;
+	--button-color: black;
+	--shadow-color: lightgrey;
+	--hover-color: grey;
+}
+
+body {
+	background-color: var(--background-color, black);
+    color: var(--font-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--font-color);
+	margin: 1.5px 0;
+    padding: 3.5px;
+    border: none;
+	outline: none;
+    box-shadow: 1.5px 1.5px 1.5px var(--shadow-color);
+}
+
+button:hover {
+    box-shadow: 1.5px 1.5px 5px var(--hover-color);
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    background-color: var(--background-color, black);
+    margin: 1.5%;
+    padding-bottom: 30%;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: lightcoral;
+	font-weight: bold;
+}
+
+#stripe {
+    background-color: white;
+    color: black;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 500px;
+}
+
+#colorDisplay {
+    font-size: 60px;
+}
+
+#reset {
+    border-radius: 3.5px;
+}
