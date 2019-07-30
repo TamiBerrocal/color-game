@@ -1,4 +1,5 @@
 # color-game
-Guess the color!
+Playing with CSS and JS
 
-Try it at https://tamiberrocal.github.io/color-game/
+##Guess the color!
+Try it [here](https://tamiberrocal.github.io/color-game/)!
